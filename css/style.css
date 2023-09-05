@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.background-black {
+    background-color: black;  
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+   
+}
+/* flex  */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container-small {
+    /* display: flex;
+    justify-content: center; */
+    max-width: 800px; 
+    margin: 0 auto;
+}
+/* colonne schema da 12 */
+.col-2 {
+    flex-basis: calc(100% / 6);
+}
+.col-8 {
+    flex-basis: calc(100% / (12 / 8) );
+}
+.col-7 {
+    flex-basis: calc(100% / (12 / 7) );
+}
+.col-5 {
+    flex-basis: calc(100% / (12 / 5) );
+}
+.col-12 {
+    flex-basis: 100%;
+}
+.col-4 {
+    flex-basis: calc(100% / 3 );
+}
+/* .col-10 {
+    flex-basis: calc(100% / (12 / 10));
+} */
+
+/* header  */
+.page-header {
+    background-color: #3161e0;
+    height: 80px;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.link-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.login {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.link-header a {
+    color: white;
+    text-align: center;
+}
+/* Button */
+.button {
+    color: black;
+    padding: 8px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+
+/* prima sezione  */
+.first-section{
+    background-color: blue;
+    padding: 40px;
+    
+}
+/* seconda sezione */
+.section-seven-five {
+    min-height: 400px;
+    background-color: white;
+    padding: 40px;
+}
+.section-twelve {
+    background-color: lightgray;
+    padding: 40px;
+    min-height: 400px;
+}
+.footer-section {
+    min-height: 400px;
+    margin-bottom: 2px;
+    padding-bottom: 20px;
+    
+}
+.footer-button {
+    padding-top: 20px;
+}
+/* bottoni  */
+.footer-button .col-12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+button {
+    padding: 4px;
+}
+.bottone {
+    text-align: right;
+}
+
+
+/* DEBUG */
+.debug .page-header {
+    min-height: 80px;
+    padding: 20px;
+    background-color: aqua;
+    
+}
+.debug .page-header .row .logo,
+.debug .page-header .row .link,
+.debug .page-header .row .login {
+    
+    border: 2px dashed black;
+    background-color: yellow;
+    padding: 10px;
+    
+}
+
+.debug .first-section{
+    /* background-color: blue; */
+    min-height: 400px;
+    /* padding: 40px; */
+    
+}
+
+/* .debug .first-section .row  {
+    border: 2px dashed black;
+    min-height: 350px;
+    background-color: palevioletred;
+    flex-basis: 800px;
+} */
+.debug .first-section .col-12 {
+    
+    border: 2px dashed black;
+    min-height: 350px;
+    background-color: palevioletred;
+    flex-basis: 800px;
+}
+.debug .section-seven-five {
+    min-height: 400px;
+    
+}
+
+.debug .section-seven-five .row .col-5, 
+.debug .section-seven-five .row .col-7 {
+    border: 2px dashed black;
+    min-height: 350px;
+    
+}
+.debug .col-7 {
+    background-color: lightblue;
+}
+.debug .col-5 {
+    background-color: lightpink;
+}
+
+/* .debug .background-gray {
+    background-color: lightgray;
+} */
+.debug .section-twelve .row .col-12 {
+    background-color: green;
+    min-height: 700px;
+    border: 2px dashed black;
+}
+/* .debug .footer-section .row {
+    min-height: 500px;
+    padding: 20px;
+} */
+.debug .footer-section .row .col-4 {
+    background-color: pink;
+    border: 2px dashed black;
+}
+.debug .footer-section .row .col-2 {
+    background-color: lightseagreen;
+    border: 2px dashed white;
+}
+/* .debug .footer-button .row {
+    min-height: 40px;
+    background-color: aquamarine;
+} */
+.debug .footer-button .row .col-12{
+    min-height: 40px;
+    background-color: aquamarine;
+}
+
+.background-gray {
+    background-color: lightgray;
+}
+/* diamo un altezza a tutte le classi che iniziano con col-  */
+.debug main [class^='col-'] {
+    min-height: 200px;
+    border: 2px dashed black;
+    padding: 20px;
+}
+.debug .footer-section .col-4,
+.debug .footer-section .col-2 {
+    min-height: 400px;
+    border: 2px dashed white;
+    padding: 30px;
+
+}
