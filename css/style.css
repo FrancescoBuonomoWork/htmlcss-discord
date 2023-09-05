@@ -38,7 +38,7 @@ a {
     justify-content: center; */
     max-width: 800px; 
     margin: 0 auto;
-    height: 600px;
+    /* height: 600px; */
 }
 /* per il banner alla fine del main  */
 .container-super-small {
@@ -139,7 +139,7 @@ a {
 }
 .container-small .row {
     align-items: center;
-    height: 100%;
+    /* height: 100%; */
 }
 
 
@@ -188,6 +188,7 @@ a {
     padding-bottom: 30px;
     background-image: url(../img/stars.svg);
     background-size: cover;
+  
     
 }
 
