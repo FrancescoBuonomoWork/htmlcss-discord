@@ -6,7 +6,10 @@
 body {
     font-family: 'DM Sans', sans-serif;
 }
-
+ul,
+ol {
+    text-decoration: none;
+}
 .background-black {
     background-color: black;  
 }
@@ -117,7 +120,7 @@ a {
 /* prima sezione  */
 .first-section{
     background-image: url(../img/jumbo.png);
-    height: 600px;
+    padding: 20vh 0;
     background-size: cover;
     text-align: center;
     /* padding: 40px; */  
@@ -191,6 +194,7 @@ a {
   
     
 }
+ /* FOOTER CSS  */
 
 .footer-section {
     min-height: 400px;
@@ -213,7 +217,18 @@ button {
 .bottone {
     text-align: right;
 }
-
+/* elementi nel footer  */
+.footer-section__title{
+    color: #8ea1e1;;
+    padding: 20px 0;
+}
+select {
+    background-color: black;
+    color: white;
+}
+.list {
+    color: white;
+}
 
 /* DEBUG */
 .debug .page-header {
