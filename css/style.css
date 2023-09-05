@@ -38,6 +38,7 @@ a {
     justify-content: center; */
     max-width: 800px; 
     margin: 0 auto;
+    height: 600px;
 }
 /* colonne schema da 12 */
 .col-2 {
@@ -128,6 +129,10 @@ a {
 .first-section__p {
     color: white;
 }
+.container-small .row {
+    align-items: center;
+    height: 100%;
+}
 
 
 /* seconda sezione */
@@ -136,6 +141,11 @@ a {
     background-color: white;
     padding: 40px;
 }
+.section-seven-five__img .img{
+    max-width: 
+}
+
+/* ultima sezione main  */
 .section-twelve {
     background-color: lightgray;
     padding: 40px;
