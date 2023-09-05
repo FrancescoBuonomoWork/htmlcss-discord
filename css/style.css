@@ -40,6 +40,11 @@ a {
     margin: 0 auto;
     height: 600px;
 }
+/* per il banner alla fine del main  */
+.container-super-small {
+    max-width: 500px;
+    margin: 0 auto;
+}
 /* colonne schema da 12 */
 .col-2 {
     flex-basis: calc(100% / 6);
@@ -103,7 +108,10 @@ a {
     color: white;
     background-color: black;
 }
-
+.button-blue {
+    color: white;
+    background-color: #8ea1e1;
+}
 
 
 /* prima sezione  */
@@ -152,20 +160,37 @@ a {
     justify-content: center;
 } */
 
-.section-img-text__title {
+.section-img-text__title,
+.section-big__title {
     font-weight: 700;
     font-size: 30px;
     padding-bottom: 20px;
 }
-.section-img-text__p {
+.section-img-text__p,
+.section-big__p {
     font-size: 16px;
 }
-/* ultima sezione main  */
-.section-twelve {
+/* ultima sezione main  BIG SECTION */
+.section-big {
     background-color: lightgray;
     padding: 40px;
     min-height: 400px;
+    text-align: center;
 }
+.section-big__banner {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section-big__banner-title {
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 30px;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    
+}
+
 .footer-section {
     min-height: 400px;
     margin-bottom: 2px;
