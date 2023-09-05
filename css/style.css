@@ -93,7 +93,7 @@ a {
 /* Button */
 .button {
     padding: 12px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 .button-white {
   color: black;
@@ -136,27 +136,28 @@ a {
 
 
 /* seconda sezione */
-.section-seven-five {
+.section-img-text {
     min-height: 400px;
     background-color: white;
     padding: 40px;
 }
-.section-seven-five__img {
+.section-img-text__img {
     width: 90%;
+    
 }
 
-.section-seven-five .col-5 {
+/* .section-seven-five .col-5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
-.section-seven-five__title {
+.section-img-text__title {
     font-weight: 700;
     font-size: 30px;
     padding-bottom: 20px;
 }
-.section-seven-five__p {
+.section-img-text__p {
     font-size: 16px;
 }
 /* ultima sezione main  */
