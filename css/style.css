@@ -141,10 +141,19 @@ a {
     background-color: white;
     padding: 40px;
 }
-.section-seven-five__img .img{
-    max-width: 
+.section-seven-five__img {
+    width: 90%;
 }
-
+.section-seven-five .col-5 {
+   
+}
+.section-seven-five__title {
+    font-weight: 700;
+    font-size: 30px;
+}
+.section-seven-five__p {
+    font-size: 16px;
+}
 /* ultima sezione main  */
 .section-twelve {
     background-color: lightgray;
