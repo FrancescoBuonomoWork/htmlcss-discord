@@ -79,6 +79,7 @@ a {
     color: white;
     text-align: center;
 }
+
 /* Button */
 .button {
     color: black;
@@ -91,10 +92,14 @@ a {
 
 /* prima sezione  */
 .first-section{
-    background-color: blue;
-    padding: 40px;
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    background-size: cover;
+    /* padding: 40px; */
     
 }
+
+
 /* seconda sezione */
 .section-seven-five {
     min-height: 400px;
