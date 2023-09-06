@@ -11,6 +11,12 @@ ol {
     list-style:none; 
     padding:0;
 }
+.background-white {
+    background-color: white;
+}
+.background-gray {
+    background-color: lightgray;
+}
 .background-black {
     background-color: black;  
 }
@@ -146,11 +152,10 @@ a {
     /* height: 100%; */
 }
 
-
 /* seconda sezione */
 .section-img-text {
     min-height: 400px;
-    background-color: white;
+    
     padding: 40px;
 }
 .section-img-text__img {
